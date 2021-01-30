@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/models/*": ["Backend/models/*"],
+      "@/api/*": ["Backend/api/*"],
+      "@/utils/*": ["utils/*"],
+      "@/Employee/*": ["Frontend/components/Employee/*"],
+      "@/Login/*": ["Frontend/components/Login/*"],
+      "@/Main/*": ["Frontend/components/Main/*"],
+      "@/Forgot_Pass/*": ["Frontend/components/Forgot_Password/*"],
+      "@/Sign_Up/*": ["Frontend/components/Sign_Up/*"],
+      "@/Customer/*": ["Frontend/components/Customer/*"],
+      "@/Contract/*": ["Frontend/components/Contract/*"],
+      "@/AppendixContract/*": ["Frontend/components/AppendixContract/*"],
+      "@/Participant/*": ["Frontend/components/Participant/*"],
+      "@/UserType/*": ["Frontend/components/UserType/*"],
+      "@/ShowToast/*": ["Frontend/components/Helpers/*"],
+      "@/ListUser/*": ["Frontend/components/ListUser/*"],
+      "@/UserProfile/*": ["Frontend/components/User_Profile/*"],
+      "@/System_Page/*": ["Frontend/components/System_Page/*"],
+      "@/Controll/*": ["Frontend/components/Controll/*"],
+      "@/ManagementMenu/*": ["Frontend/components/ManagementMenu/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
